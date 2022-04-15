@@ -8,4 +8,4 @@ ashlar/jars
 *.rcpnl
 output/*
 
-.obsidian/*
+*/.obsidian/
