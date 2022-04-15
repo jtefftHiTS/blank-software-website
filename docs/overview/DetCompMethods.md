@@ -16,7 +16,7 @@ parent: Overview
 {:toc}
 </details>
 
-# Step 1: Stitching
+# Step 1: 
 ![Image corresponding to description of steps below.]({{ site.baseurl }}/assets/images/details1.png)
 
 ### 1.1: Tile adjacency graph from stage positions

@@ -1,14 +1,13 @@
 ---
-layout: default
-nav_exclude: false
-title: Running ASHLAR
-parent: Instructions
-nav_order: 12
+layout: page
+title: Parameter Reference
+nav_order: 6
+has_children: true
 ---
 
-# Running ASHLAR
+# Running MY SOFTWARE
 
-This page serves as a reference guide for ASHLAR syntax. Refer to the [quick start guide](./) for step-by-step instructions.
+This page serves as a reference guide for MY SOFTWARE syntax. Refer to the [tutorial](./tutorial.html) for an example step-by-step guide.
 
 ## Description
 **Ashlar** performs fast, high-quality stitching of microscopy images. It also co-registers multiple rounds of cyclic imaging for methods such as CyCIF and CODEX. 

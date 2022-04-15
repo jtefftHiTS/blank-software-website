@@ -2,7 +2,7 @@
 layout: default
 nav_exclude: false
 title: Installation
-parent: Instructions
+parent: Parameter Reference
 nav_order: 10
 ---
 
