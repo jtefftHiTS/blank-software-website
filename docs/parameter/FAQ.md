@@ -20,7 +20,7 @@ nav_order: 20
 </details>
 
 ## How do X?
-This is documented on [mcmicro.org](mcmicro.org){: .target=blank}.
+This is documented on [mcmicro.org](https://mcmicro.org/){:target="_blank"}.
 
 ## Why does my output image have this common defect?
 
