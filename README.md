@@ -1,4 +1,4 @@
-# blank-software-website
+# Software Website Template
 
 Use this repo as a template to build your own software website. 
 
@@ -14,7 +14,7 @@ Use this repo as a template to build your own software website.
 
 ## Useful Jekyll .md formatting
 
-See the [Just the Docs - LSP](https://labsyspharm.github.io/just-the-docs-lsp/){:target="_blank"} page for complete and thorough information about how to edit the template format! 
+See the [Just the Docs - LSP](https://labsyspharm.github.io/just-the-docs-lsp/) page for complete and thorough information about how to edit the template format! 
 
 ### Open in a new tab
 ```
