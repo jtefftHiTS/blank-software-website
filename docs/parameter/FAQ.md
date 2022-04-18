@@ -7,10 +7,8 @@ nav_order: 20
 
 ---
 # Frequently Asked Questions:
-
-Use this page to answer commonly asked questions. You may want to document questions that have come up from new users in the group. 
-
-*Detailed answers will help you ward off some emails!*
+[//]: # This page can be hidden (nav_exclude: true) if you are not ready to display FAQ on your site.
+[//]: # *Detailed answers will help you ward off some emails!*
 
 <details open markdown="block">
   <summary>
@@ -20,3 +18,15 @@ Use this page to answer commonly asked questions. You may want to document quest
   - TOC
 {:toc}
 </details>
+
+## How do X?
+This is documented on [mcmicro.org](mcmicro.org){: .target=blank}.
+
+## Why does my output image have this common defect?
+
+To correct this, you'll need to tune this parameter. 
+
+Example
+```
+Show an example of syntax
+```

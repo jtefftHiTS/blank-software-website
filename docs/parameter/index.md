@@ -6,63 +6,54 @@ has_children: true
 ---
 
 # Running MY SOFTWARE
+This page serves as a reference guide for MY SOFTWARE syntax - you must [install](./installation.html) before proceeding. 
 
-This page serves as a reference guide for MY SOFTWARE syntax. Refer to the [tutorial](./tutorial.html) for an example step-by-step guide.
+Refer to the [tutorial]({{ site.baseurl }}/tutorial.html) for an example step-by-step guide for how to use MY SOFTWARE.
 
 ## Description
-**Ashlar** performs fast, high-quality stitching of microscopy images. It also co-registers multiple rounds of cyclic imaging for methods such as CyCIF and CODEX. 
+[//]: # This should be a brief, 1-2 sentence description
+**MY SOFTWARE** performs this task. 
 
 ## Input
-An ```.ome.tiff``` file of **unstitched**\* images
+[//]: # Describe the input
+An ```.ome.tiff``` and `markers.csv` file
 
-{: .fs-3 }
-{: .fw-300 }
-> Many BioFormats-supported microscope vendor file formats are supported. Further information on how to determine if your file format is compatible will be added soon. 
+[//]: # For inputs that require specific formatting, you may want to use sub-headings to describe those input formats. For example, a .csv may require specific formatting for the software, or a ome.tiff may need to be pre-stitched, etc.
+### Example markers file
+The markers file should be formatted in this way
 
-{: .fs-3 }
-{: .fw-300 }
-> \*Ashlar requires unstitched individual "tile" images as input - it is not suitable for microscopes or slide scanners that only provide pre-stitched images. A list of microscopes that we know are compatible with ASHLAR will be coming soon. 
 
 ## Output
 A pyramidal, tiled ```.ome.tif```
 
 ## Usage:
-Stitch and align one or more multi-series images
+MY SOFTWARE can be run with the following command
 ```
-ashlar FILE [FILE ...] [OPTIONS] 
+MY-SOFTWARE FILE [FILE ...] [OPTIONS] 
 ```
 
-### Required arguments
+[//]: # Add an example of how to call the software with a simple set of inputs
+For example, to run MY SOFTWARE on a set of data stored at my/path, with OPTION-Y set to 30:
+```
+MY-SOFTWARE FILE my/path --OPTION-Y 30
+```
+
+## Required arguments
+[//]: # Describe the required inputs, we've shown one as an example
 
 | Name | Description |
 |---|---|
-| ```FILE``` | an image file to be processed (one file per cycle) |
+| ```FILE``` | an `ome.tif` image file to be processed|
 
-### Optional arguments
+## Optional arguments
+[//]: # Describe optional arguments and defaults. If the options need more description, add subheadings with additional information below the table (as shown with Option-y). 
 
 |  Name; Shorthand | Description | Default|
 |---|---|---|
 |```--help; -h```| Show this help message and exit| |
 |```--output DIR; -o DIR```|Write image files to DIR|Current directory|
-|```--align-channel CHANNEL; -c CHANNEL```| Align images using channel number CHANNEL | Numbering starts at 0|
-|```--flip-x```|Flip tile positions left-to-right to account for unusual microscope configurations | |
-|```--flip-y```|Flip tile positions top-to-bottom to account for unusual microscope configurations | |
-|```--flip-mosaic-x```|Flip mosaic image horizontally||
-|```--flip-mosaic-y```|Flip mosaic image vertically||
-|```--output-channels CHANNEL [CHANNEL...]```|Output only channels listed in CHANNELS|Numbering starts at 0|
-|```--maximum-shift SHIFT; -m SHIFT```|Maximum allowed per-tile corrective shift in microns||
-|```--filter-sigma SIGMA```|Width in pixels of Gaussian filter to apply to images before alignment| Default is 0 (which disables filtering)|
-|```--filename-format FORMAT; -f FORMAT```|Use FORMAT to generate output filenames, with {cycle} and {channel} as required placeholders for the cycle and channel numbers | default is cycle\_{cycle}\_channel\_{channel}.tif|
-|```--pyramid```|Write output as a single pyramidal TIFF||
-|```--tile-size PIXELS```|Set tile width and height to PIXELS (pyramid output only)|Default is 1024|
-|```--ffp FILE [FILE ...]```|Read flat field profile image from FILES|If specified must be one common file for all cycles or one file for each cycle|
-|```--dfp FILE [FILE ...]```|Read dark field profile image from FILES|If specified must be one common file for all cycles or one file for each cycle|
-|```--plates```|Enable mode for multi-well plates (for high-throughput screening assays)||
-|```--quiet; -q```|Suppress progress display||
-|```--version```|Print version||
+|```--OPTION-Y```|Set the number to run with option y. [Read below](./option-y) for more information about selecting a value for option y. | 5 |
 
-  
-{: .fs-3 }
-{: .fw-300 }
-**Note:** Detailed information on how to tune these parameters will be added soon.
+### OPTION Y
+The default value works well in many cases, but increasing the value will do X. If you notice Y in your output, the value may need to be adjusted. 
 

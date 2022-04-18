@@ -5,7 +5,7 @@ nav_order: 1
 has_children: true
 description: ""
 hero_heading: "SOFTWARE NAME"
-hero_body: "A software that does this thing"
+hero_body: "A software that does X and Y"
 hero_ctas:
   - label: "OVERVIEW"
     link: "overview/"
@@ -15,6 +15,9 @@ hero_ctas:
     link: "parameter/"
 
 ---
+
+
+[//]: # On this page, use active voice to describe your software. For example, "This software uses python to do X" *instead* of "X is done by using python"
 
 # Key Features
 

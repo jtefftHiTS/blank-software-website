@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: ASHLAR
+title: SOFTWARE SITE
 description: >- # this means to ignore newlines until "logo:"
   ASHLAR website
 logo: "/images/blank-microsite-logo.png"

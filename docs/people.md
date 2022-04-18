@@ -2,19 +2,17 @@
 layout: default
 title: People
 nav_order: 90
-last_modified_date: 2022-03-01
+
 ---
 
 # People
+[//]: # The main titles here are a suggestion, you may find that another format works better for your application. 
 
 ## Lead Developers
-* [Jeremy Muhlich](https://github.com/jmuhlich)
-* [Yu-An Chen](https://github.com/Yu-AnChen)
-* [Douglas Russell](https://github.com/dpwrussell)
+* [Person 1](link to their GitHub)
 
 ## Contributors
-* [Juliann Tefft](https://www.linkedin.com/in/juliann-tefft)
-* [Han Xu](https://www.linkedin.com/in/han-xu-16a0216b/)
+* [Person 2](link to their GitHub)
 
 ## Laboratory Principal Investigators:
 * [Peter K. Sorger](https://scholar.google.com/citations?user=wS6Ii_cAAAAJ&hl=en)

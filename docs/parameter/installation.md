@@ -7,38 +7,34 @@ nav_order: 10
 ---
 
 # Installation
+[//]: # Provide specific details about your software installation
+MY SOFTWARE is compatible with Mac, Linux...
 
-### Pip install
+### Method 1
 
-Ashlar can be installed in most Python environments using `pip`:
-``` bash
-pip install ashlar
+MY SOFTWARE can be installed using:
+``` 
+Example code for this installation method
 ```
 
-### Using a conda environment
+### Method two
 
-If you don't already have [miniconda](https://docs.conda.io/en/latest/miniconda.html)
-or [Anaconda](https://www.anaconda.com/products/individual), download the python
-3.x version and install. Then, run the following commands from a terminal (Linux/Mac)
-or command prompt (Windows):
+If you have this other system, you may prefer to install using this method. 
 
-Create a named conda environment with python 3.7:
-```bash
-conda create -y -n ashlar python=3.7
+First, do this thing
+```
+First step inputs
 ```
 
-Activate the conda environment:
-```bash
-conda activate ashlar
+Then do this other thing
+```
+second step inputs
 ```
 
-In the activated environment, install dependencies and ashlar itself:
-```bash
-conda install -y -c conda-forge numpy scipy matplotlib networkx scikit-image=0.16.2 scikit-learn pyjnius
-pip install ashlar
+You can verify that the installation was successful by running 
+```
+this test run
 ```
 
-### Docker image
-The docker image of ashlar is on [DockerHub](https://hub.docker.com/r/labsyspharm/ashlar) and should be suitable for many use cases.
 
-**Return to the [quick start guide](./) to learn more about how to use ASHLAR.**
+**Return to [Running MY SOFTWARE](./) to learn more about how to use MY SOFTWARE.**
