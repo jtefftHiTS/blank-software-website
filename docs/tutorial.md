@@ -17,7 +17,8 @@ nav_order: 4
 Code to enter on this step
 ```
 
-[//]: # You can alter the font size (fs),font width (fw), or text color for notes if you want to. More information at [Just the docs LSP](https://labsyspharm.github.io/just-the-docs-lsp/docs/utilities/typography/)
+[//]: # You can alter the font size (fs),font width (fw), or text color for notes if you want to. More information at [Just the docs LSP](https://labsyspharm.github.io/just-the-docs-lsp/docs/utilities/typography/). You must leave a line space before this .md formatting, or it won't work properly.
+
 {: .fs-3 }
 {: .fw-300 }
 > **Note:** You may want to include some notes to give useful hints.

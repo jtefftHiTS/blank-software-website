@@ -17,9 +17,8 @@ MY SOFTWARE can be installed using:
 Example code for this installation method
 ```
 
-### Method two
-
-If you have this other system, you may prefer to install using this method. 
+### Method 2
+*If you have this other system, you may prefer to install using this method.* 
 
 First, do this thing
 ```
