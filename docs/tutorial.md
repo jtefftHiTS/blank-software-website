@@ -6,20 +6,29 @@ nav_order: 4
 ---
 
 # Tutorial
+[//]: # The goal of the tutorial is for users to make sure that your software works with their system. 
+[//]: # Lead them through a simple workflow using a sample data set. The tutorial should not give options it should be a well defined path -- you do X, Y, Z and you get this result. See the [MCMICRO tutorial](https://mcmicro.org/tutorial/tutorial.html) for an example.
 
-1. [Install](installation.html) MY SOFTWARE.
+1. First, [install](installation.html) MY SOFTWARE.
 
-2. Open an un-stitched set of ```.ome.tif``` images. You may [download](https://mcmicro.org/datasets.html){:target="_blank"} ```Exemplar 001``` from MCMICRO as an appropriate example data set.
+2. Descriptive second step. The second step might be obvious to computational folks, but if your software is crossdisciplinary or geared towards users who are *not* computational, you should be explicit. 
 
+```
+Code to enter on this step
+```
+
+[//]: # You can alter the font size (fs),font width (fw), or text color for notes if you want to. More information at [Just the docs LSP](https://labsyspharm.github.io/just-the-docs-lsp/docs/utilities/typography/)
 {: .fs-3 }
 {: .fw-300 }
-> **Note:** ASHLAR is capable of inputting many types of BioFormats-supported microscope vendor file formats, but some formats require additional processing steps. Please check back soon for detailed instructions on how to verify that your data is compatible and how to correct compatibility issues.
+> **Note:** You may want to include some notes to give useful hints.
 	
-3. [Run ASHLAR](running.html).
+3. Next.... 
 
-4. Check the result of the mosaic image output using a visualization software (such as [FIJI](https://imagej.net/software/fiji/downloads))*.
+```
+Code to enter on this step
+```
 
 {: .fs-3 }
 {: .fw-300 }
-> \*Some images will require parameters to be adjusted in order to attain perfect stitching. More information on how to tune the optional parameters will be added soon. 
+> \*Remember to ....
 
