@@ -3,7 +3,6 @@ layout: default
 title: Overview
 nav_order: 2
 has_children: true
-last_modified_date: 2022-02-18
 ---
 
 [//]: # The goal of this page is to give a simplified overview of your software. 
@@ -63,14 +62,7 @@ Figure caption describing this second step
 
 <br>
 
-
-
 # Learn More
 **View the [detailed computational methods](./detailed-methods.html) for more information on how each step is performed.**
 
 *For more details, read the preprint manuscript here: [https://doi.org/](https://doi.org/).*
-
-## Integration with MCMICRO Pipeline
-**The Multiple-choice microscopy pipeline (MCMICRO)** is an end-to-end processing pipeline to transform large, multi-channel whole slide images into single-cell data. See [https://mcmicro.org/](https://mcmicro.org/) for more information on the MCMICRO pipeline documentation, implementation, troubleshooting, and more.
-
-![Visual overview of the MC MICRO pipeline components: Basic for illumination correction, Ashlar for alignment and stitching, Coreograph for TMA Core detection, UnMicst or S3 segmenter for segmentation, MC Quant for image quantification.]({{ site.baseurl }}/assets/images/pipeline-no-microscope.png)
