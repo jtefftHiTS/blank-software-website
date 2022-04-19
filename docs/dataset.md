@@ -1,24 +1,48 @@
 ---
 layout: default
-title: Example Data
+title: Example data
 nav_order: 20
-last_modified_date: 2022-02-17
+nav_exclude: false
 ---
+[//]: # You can hide this page if you don't need it! (nav_exclude: true)
 
 # Example Data Set
-## Human Normal Colon
-The following images show an example mosaic image compiled by ASHLAR from high-plex tissue data. These images represent a ~24 mm x 14 mm x 5 μm section of a human normal colon sample (obtained from the Cooperative Human Tumor Network [https://www.chtn.org/](https://www.chtn.org/)). A grid of 609 overlapping tiles (29 x 21) was required to image the entire specimen. Full-resolution insets at tile junctions (shown in the lower row) indicate highly accurate image stitching by ASHLAR. 
+[//]: # You may want to provide an example data set for your users. If this is for the tutorial, you may prefer to embed the information for accessing the data set directly in the tutorial page. 
+[//]: # If the data set is more extensive (for example, a comprehensive list of the data used in your manuscript), you may prefer that it has it's own page. 
+[//]: # For image data, you may want to embed some example images of the data set
 
-To test ASHLAR, download the data below and process the data set yourself by following the [quick start guide](./instructions).
+*Three examples of different methods for embedding images:**
 
-[Download Example Data on Synapse](https://dx.doi.org/10.7303/syn25826362){: .btn .btn-outline .btn-arrow }
+## 1. Image with a static width (defined by the user)
+<br>
 
-![Example Data: Full tiled mosaic image of colon sample and a higher magnification inset at tile overlap region.]({{ site.baseurl }}/assets/images/fig4-zooms-v2-upper.png)
-![Example Data: Four full-resolution insets at tile overlaps.]({{ site.baseurl }}/assets/images/fig4-zooms-v2-lower.png)
-### Figure 1: ASHLAR mosaic results of a normal human colon\*
-**Upper left:** Pseudocolor image showing 5 channels from a 28-plex (9-cycle) t-CyCIF image of a normal human colon section. Tiles, denoted by the gray grid, overlapped by ~31 pixels (20 μm).  
-**Upper right:** Higher magnification view of the area surrounding a single tile showing 7 channels from 4 different cycles to highlight stitching and registration accuracy.   
-**Lower panels:** Regions of the tile overlap area at full resolution. Insets correspond to the white box with the matching number in the upper right panel.  
-*Note that the higher magnification panels (upper right and lower row) feature different antibodies than the lower magnification panel (upper left) to highlight structures relevant at each spatial scale.*
+{: .text-center }
+{: .fs-3 }
+{: .fw-300 }
+<figure>
+	<a href="https://mcmicro.org/datasets/">
+		<img src="{{ site.baseurl }}/images/mcmicro-exemplar-002.jpg" style="max-width: 300px;"
+			 alt="Image of exemplar data 2, showing four cores from a tissue microarray, stained with CD163, CD3D, CD31, VDAC1, and Keratin)"  />
+	</a> <figcaption>MCMICRO exemplar-002, showing four cores from a tissue microarray.</figcaption> 
+</figure>
 
-\*The representative images above only depict a subset of the full list of image channels present in the data set.*
+
+## 2. Image with a static width (defined by the page width)
+![Image of exemplar data 2, showing four cores from a tissue microarray, stained with CD163, CD3D, CD31, VDAC1, and Keratin]({{ site.baseurl }}/images/mcmicro-exemplar-002.jpg)
+
+## 3. Image with a adjustable width (image proportions for different page sizes defined by the user using [basic grid](https://labsyspharm.github.io/just-the-docs-lsp/docs/utilities/layout/#image-cards){:target="_blank"}
+
+[//]: # The basic grid has a max width of 12. Here, I've set my image to be smaller (1/3 of max) on a phone screen, and larger (1/2 of max) on a larger screen
+
+<div class="row">
+
+<div class="col-xs-4 col-sm-6">
+<div markdown="1">
+![Image of exemplar data 2, showing four cores from a tissue microarray, stained with CD163, CD3D, CD31, VDAC1, and Keratin]({{ site.baseurl }}/images/mcmicro-exemplar-002.jpg)
+</div>
+</div>
+
+
+</div><!-- end grid -->
+
+

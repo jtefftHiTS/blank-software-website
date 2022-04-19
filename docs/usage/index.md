@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Parameter Reference
+title: Running MY SOFTWARE
 nav_order: 6
 has_children: true
 ---
 
 # Running MY SOFTWARE
-This page serves as a reference guide for MY SOFTWARE syntax - you must [install](./installation.html) before proceeding. 
+This page serves as a reference guide for MY SOFTWARE syntax - you must [install](installation.html) before proceeding. 
 
 Refer to the [tutorial]({{ site.baseurl }}/tutorial.html) for an example step-by-step guide for how to use MY SOFTWARE.
 

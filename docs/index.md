@@ -12,7 +12,7 @@ hero_ctas:
   - label: "Tutorial"
     link: "tutorial.html"
   - label: "Reference Information"
-    link: "parameter/"
+    link: "usage/"
 
 ---
 

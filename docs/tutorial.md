@@ -9,7 +9,7 @@ nav_order: 4
 [//]: # The goal of the tutorial is for users to make sure that your software works with their system. 
 [//]: # Lead them through a simple workflow using a sample data set. The tutorial should not give options it should be a well defined path -- you do X, Y, Z and you get this result. See the [MCMICRO tutorial](https://mcmicro.org/tutorial/tutorial.html) for an example.
 
-1. First, [install](installation.html) MY SOFTWARE.
+1. First, [install](usage/installation.html) MY SOFTWARE.
 
 2. Descriptive second step. The second step might be obvious to computational folks, but if your software is crossdisciplinary or geared towards users who are *not* computational, you should be explicit. 
 

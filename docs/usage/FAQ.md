@@ -2,7 +2,7 @@
 layout: default
 nav_exclude: false
 title: FAQ
-parent: Parameter Reference
+parent: Running MY SOFTWARE
 nav_order: 20
 
 ---
