@@ -52,7 +52,7 @@ MY-SOFTWARE FILE my/path --OPTION-Y 30
 |---|---|---|
 |```--help; -h```| Show this help message and exit| |
 |```--output DIR; -o DIR```|Write image files to DIR|Current directory|
-|```--OPTION-Y```|Set the number to run with option y. [Read below](./option-y) for more information about selecting a value for option y. | 5 |
+|```--OPTION-Y```|Set the number to run with option y. [Read below](./#option-y) for more information about selecting a value for option y. | 5 |
 
 ### OPTION Y
 The default value works well in many cases, but increasing the value will do X. If you notice Y in your output, the value may need to be adjusted. 
