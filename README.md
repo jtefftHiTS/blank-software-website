@@ -12,7 +12,7 @@ Use this repo as a template to build your own software website.
 * Update the path to your banner image and logo
 * You may toggle the color theme if desired
 
-## Useful Jekyll .md formatting
+## Useful formatting links
 
 See the [Just the Docs - LSP](https://labsyspharm.github.io/just-the-docs-lsp/) page for complete and thorough information about how to edit the template format! 
 
@@ -57,7 +57,11 @@ See the [Just the Docs - LSP](https://labsyspharm.github.io/just-the-docs-lsp/) 
 </details>
 ```
 
+### Images
 
+You'll find 3 examples of how to define images in the [example data set](https://github.com/jtefftHiTS/blank-software-website/blob/master/docs/dataset.md) page
 
+## Line break
+Use `<br>` to add extra spacing
 
 
