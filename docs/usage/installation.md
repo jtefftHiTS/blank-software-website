@@ -6,8 +6,10 @@ parent: Running MY SOFTWARE
 nav_order: 10
 ---
 
+[//]: # Provide specific details about your software installation (write this to target a beginner user!)
+[//]: # If the installation is simple (there's only one way to install), you may prefer to hide this page (nav_exclude: true) and embed the installation into the tutorial page
+
 # Installation
-[//]: # Provide specific details about your software installation
 MY SOFTWARE is compatible with Mac, Linux...
 
 ### Method 1
